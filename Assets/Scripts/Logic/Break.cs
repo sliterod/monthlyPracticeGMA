@@ -139,7 +139,7 @@ public class Break : MonoBehaviour {
     /// <summary>
     /// Resets all break values after an interruption (character dead)
     /// </summary>
-    void BreakResetByInterruption() {
+    public void BreakResetByInterruption() {
         //Stopping break
         ActivateBreak(false);
 

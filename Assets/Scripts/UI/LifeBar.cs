@@ -81,4 +81,14 @@ public class LifeBar : MonoBehaviour {
             ActivateBarReduction(false, 0.0f);
         }
     }
+
+    /// <summary>
+    /// Resets life bar size
+    /// </summary>
+    public void ResetLifeBar() {
+        lifeBarRect.localScale = new Vector2(0.0f, 1.0f);
+        lifeBarPlayer.color = new Color(0.0f, 0.67f, 0.0f);
+
+        canDecreaseLifeBar = false;
+    }
 }
