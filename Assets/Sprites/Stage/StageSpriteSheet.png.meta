@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 0a470f36871a3ab4581d31a0760a0f9c
+timeCreated: 1475426313
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StageSpriteSheet_0
+    21300002: StageSpriteSheet_1
+    21300004: StageSpriteSheet_2
+    21300006: StageSpriteSheet_3
+    21300008: StageSpriteSheet_4
+    21300010: StageSpriteSheet_5
+    21300012: StageSpriteSheet_6
+    21300014: StageSpriteSheet_7
+    21300016: StageSpriteSheet_8
+    21300018: StageSpriteSheet_9
+    21300020: StageSpriteSheet_10
+    21300022: StageSpriteSheet_11
+    21300024: StageSpriteSheet_12
+    21300026: StageSpriteSheet_13
+    21300028: StageSpriteSheet_14
+    21300030: StageSpriteSheet_15
+    21300032: StageSpriteSheet_16
+    21300034: StageSpriteSheet_17
+    21300036: StageSpriteSheet_18
+    21300038: StageSpriteSheet_19
+    21300040: StageSpriteSheet_20
+    21300042: StageSpriteSheet_21
+    21300044: StageSpriteSheet_22
+    21300046: StageSpriteSheet_23
+    21300048: StageSpriteSheet_24
+    21300050: StageSpriteSheet_25
+    21300052: StageSpriteSheet_26
+    21300054: StageSpriteSheet_27
+    21300056: StageSpriteSheet_28
+    21300058: StageSpriteSheet_29
+    21300060: StageSpriteSheet_30
+    21300062: StageSpriteSheet_31
+    21300064: StageSpriteSheet_32
+    21300066: borderless
+    21300068: StageSpriteSheet_34
+    21300070: StageSpriteSheet_35
+    21300072: StageSpriteSheet_36
+    21300074: StageSpriteSheet_37
+    21300076: StageSpriteSheet_38
+    21300078: StageSpriteSheet_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: StageSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 15}
+        - {x: -25, y: 15}
+    - name: StageSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 15}
+        - {x: -25, y: 15}
+    - name: StageSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: -14, y: -25}
+        - {x: -14, y: 13}
+        - {x: -16, y: 15}
+        - {x: -25, y: 15}
+    - name: StageSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 15}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 13}
+        - {x: -16, y: 15}
+    - name: StageSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 13}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 15}
+        - {x: -17, y: 15}
+    - name: StageSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -1}
+        - {x: -17, y: -3}
+        - {x: -8, y: -12}
+        - {x: 7, y: -12}
+        - {x: 15, y: -9}
+        - {x: 15, y: 2}
+        - {x: 10, y: 8}
+        - {x: 3, y: 14}
+        - {x: -5, y: 14}
+        - {x: -18, y: 2}
+    - name: StageSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -12}
+        - {x: -18, y: -13}
+        - {x: -18, y: -15}
+        - {x: -16, y: -17}
+        - {x: -2, y: -17}
+        - {x: 0, y: -15}
+        - {x: -1, y: -12}
+      - - {x: 6, y: 18}
+        - {x: -6, y: 18}
+        - {x: -21, y: 9}
+        - {x: -21, y: 4}
+        - {x: -5, y: -8}
+        - {x: 3, y: -8}
+        - {x: 19, y: -1}
+        - {x: 19, y: 3}
+        - {x: 12, y: 5}
+    - name: StageSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 21}
+        - {x: -18, y: 21}
+        - {x: -18, y: -17}
+        - {x: 3, y: -17}
+        - {x: 18, y: 1}
+        - {x: 18, y: 4}
+        - {x: 15, y: 5}
+        - {x: 2, y: 19}
+    - name: StageSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -11, y: -16}
+        - {x: -9, y: -18}
+        - {x: 11, y: -18}
+        - {x: 13, y: -17}
+        - {x: 13, y: 21}
+    - name: StageSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -18}
+        - {x: -15, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 19}
+        - {x: -15, y: 19}
+    - name: StageSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 19}
+        - {x: -25, y: -20}
+        - {x: 15, y: -20}
+        - {x: 17, y: -18}
+        - {x: 17, y: 17}
+        - {x: 15, y: 19}
+    - name: StageSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 19}
+        - {x: -25, y: 19}
+    - name: StageSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 19}
+        - {x: -25, y: 19}
+    - name: StageSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: -14, y: -25}
+        - {x: -14, y: 17}
+        - {x: -16, y: 19}
+        - {x: -25, y: 19}
+    - name: StageSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 1}
+        - {x: 25, y: 1}
+        - {x: 25, y: 15}
+        - {x: -25, y: 15}
+    - name: StageSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 1}
+        - {x: 25, y: 1}
+        - {x: 25, y: 15}
+        - {x: -25, y: 15}
+    - name: StageSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -18}
+        - {x: -20, y: -21}
+        - {x: -20, y: -22}
+        - {x: -17, y: -25}
+        - {x: -13, y: -25}
+        - {x: -12, y: -22}
+        - {x: -12, y: -19}
+        - {x: -15, y: -18}
+      - - {x: 14, y: -18}
+        - {x: 11, y: -21}
+        - {x: 11, y: -23}
+        - {x: 14, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: -19}
+        - {x: 16, y: -18}
+      - - {x: -6, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -21}
+        - {x: -2, y: -24}
+        - {x: 8, y: -24}
+        - {x: 10, y: -21}
+        - {x: 10, y: -17}
+        - {x: 6, y: -14}
+    - name: StageSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 7}
+        - {x: -3, y: 4}
+        - {x: -17, y: -1}
+        - {x: -20, y: -20}
+        - {x: -20, y: -23}
+        - {x: -17, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 7}
+    - name: StageSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 7}
+        - {x: 3, y: 7}
+        - {x: -19, y: -1}
+        - {x: -22, y: -11}
+        - {x: -22, y: -25}
+        - {x: 20, y: -25}
+        - {x: 24, y: -24}
+        - {x: 24, y: -18}
+        - {x: 22, y: -8}
+    - name: StageSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 17}
+        - {x: 4, y: 21}
+        - {x: -11, y: 21}
+        - {x: -13, y: 15}
+        - {x: -13, y: -10}
+        - {x: -5, y: -19}
+        - {x: 11, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 21}
+        - {x: 24, y: 21}
+    - name: StageSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 21}
+        - {x: -25, y: -25}
+        - {x: 13, y: -25}
+        - {x: 13, y: 18}
+        - {x: 10, y: 21}
+    - name: StageSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: 10, y: 22}
+        - {x: 10, y: -18}
+        - {x: 19, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: StageSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 924
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: 10, y: 22}
+        - {x: 10, y: -18}
+        - {x: 19, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: StageSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -13}
+        - {x: -25, y: -19}
+        - {x: -25, y: -25}
+        - {x: -5, y: -25}
+        - {x: -2, y: -21}
+        - {x: -2, y: -13}
+      - - {x: 0, y: -13}
+        - {x: -3, y: -16}
+        - {x: -3, y: -25}
+        - {x: 18, y: -25}
+        - {x: 23, y: -21}
+        - {x: 24, y: -16}
+        - {x: 22, y: -13}
+    - name: StageSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -24}
+        - {x: 1, y: -24}
+        - {x: 7, y: -21}
+        - {x: 7, y: -14}
+        - {x: -11, y: -14}
+        - {x: -11, y: -21}
+    - name: StageSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -13}
+        - {x: -11, y: -15}
+        - {x: -12, y: -17}
+        - {x: -12, y: -21}
+        - {x: -7, y: -25}
+        - {x: 2, y: -25}
+        - {x: 7, y: -23}
+        - {x: 8, y: -21}
+        - {x: 8, y: -17}
+        - {x: 3, y: -13}
+    - name: StageSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -12}
+        - {x: -9, y: -14}
+        - {x: -13, y: -18}
+        - {x: -13, y: -22}
+        - {x: -8, y: -25}
+        - {x: 3, y: -25}
+        - {x: 9, y: -22}
+        - {x: 9, y: -19}
+        - {x: 5, y: -12}
+    - name: StageSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -7, y: 6}
+        - {x: -7, y: -16}
+        - {x: -5, y: -18}
+        - {x: -4, y: -18}
+        - {x: 6, y: -8}
+        - {x: 6, y: 14}
+        - {x: 4, y: 16}
+    - name: StageSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -7, y: 6}
+        - {x: -7, y: -16}
+        - {x: -5, y: -18}
+        - {x: -4, y: -18}
+        - {x: 6, y: -8}
+        - {x: 6, y: 14}
+        - {x: 4, y: 16}
+    - name: StageSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -25}
+        - {x: -3, y: -25}
+        - {x: -3, y: 6}
+        - {x: -5, y: 8}
+        - {x: -8, y: 7}
+      - - {x: 2, y: -25}
+        - {x: 7, y: -25}
+        - {x: 7, y: 15}
+        - {x: 5, y: 17}
+        - {x: 2, y: 16}
+    - name: StageSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -8, y: -25}
+        - {x: -2, y: -25}
+        - {x: 7, y: -18}
+        - {x: 7, y: 25}
+    - name: StageSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 11}
+        - {x: 5, y: 2}
+        - {x: 18, y: -12}
+        - {x: 25, y: -12}
+        - {x: 25, y: 2}
+        - {x: 11, y: 11}
+      - - {x: 11, y: 25}
+        - {x: 11, y: 19}
+        - {x: 15, y: 10}
+        - {x: 21, y: 8}
+        - {x: 25, y: 8}
+        - {x: 25, y: 25}
+    - name: StageSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 874
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -25, y: 6}
+        - {x: -25, y: -14}
+        - {x: -4, y: -14}
+        - {x: 8, y: -9}
+        - {x: 11, y: -1}
+        - {x: 11, y: 10}
+        - {x: -1, y: 25}
+      - - {x: -25, y: 25}
+        - {x: -25, y: 8}
+        - {x: -21, y: 8}
+        - {x: -11, y: 18}
+        - {x: -11, y: 25}
+    - name: borderless
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 8}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 15}
+        - {x: -17, y: 15}
+    - name: StageSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 19}
+        - {x: -25, y: 19}
+    - name: StageSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 19}
+        - {x: -25, y: 19}
+    - name: StageSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 19}
+        - {x: -25, y: -25}
+        - {x: -22, y: -25}
+        - {x: -14, y: -17}
+        - {x: -14, y: 17}
+        - {x: -16, y: 19}
+    - name: StageSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -1}
+        - {x: -20, y: -1}
+        - {x: -14, y: 6}
+        - {x: -14, y: 11}
+        - {x: -16, y: 13}
+        - {x: -25, y: 13}
+    - name: StageSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 5}
+        - {x: -25, y: -1}
+        - {x: 25, y: -1}
+        - {x: 25, y: 13}
+        - {x: -17, y: 13}
+    - name: StageSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 824
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 21}
+        - {x: -21, y: 21}
+        - {x: -21, y: -22}
+        - {x: 5, y: -22}
+        - {x: 19, y: -16}
+        - {x: 20, y: -11}
+        - {x: 20, y: 11}
+        - {x: 19, y: 15}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
