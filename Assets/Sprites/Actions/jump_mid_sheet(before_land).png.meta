@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: bb3c4aa69bde8c0418f330d8198b19c5
+timeCreated: 1475440546
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jump_mid_sheet(before_land)_0
+    21300002: jump_mid_sheet(before_land)_1
+    21300004: jump_mid_sheet(before_land)_2
+    21300006: jump_mid_sheet(before_land)_3
+    21300008: jump_mid_sheet(before_land)_4
+    21300010: jump_mid_sheet(before_land)_5
+    21300012: jump_mid_sheet(before_land)_6
+    21300014: jump_mid_sheet(before_land)_7
+    21300016: jump_mid_sheet(before_land)_8
+    21300018: jump_mid_sheet(before_land)_9
+    21300020: jump_mid_sheet(before_land)_10
+    21300022: jump_mid_sheet(before_land)_11
+    21300024: jump_mid_sheet(before_land)_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jump_mid_sheet(before_land)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 50}
+        - {x: -16.5, y: 33}
+        - {x: -15.5, y: 25}
+        - {x: -21.5, y: -2}
+        - {x: -21.5, y: -17}
+        - {x: -7.5, y: -53}
+        - {x: 3.5, y: -53}
+        - {x: 20.5, y: -44}
+        - {x: 31.5, y: -8}
+        - {x: 31.5, y: 50}
+    - name: jump_mid_sheet(before_land)_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.230774, y: -53}
+        - {x: 15.769226, y: -53}
+        - {x: 35.769226, y: -35}
+        - {x: 35.769226, y: 44}
+        - {x: 33.769226, y: 47}
+        - {x: 29.769226, y: 49}
+        - {x: -18.230774, y: 49}
+        - {x: -20.230774, y: 43}
+    - name: jump_mid_sheet(before_land)_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.538452, y: 48}
+        - {x: -2.4615479, y: 48}
+        - {x: -18.461548, y: 42}
+        - {x: -28.461548, y: 37}
+        - {x: -28.461548, y: 17}
+        - {x: -24.461548, y: -9}
+        - {x: -14.461548, y: -53}
+        - {x: 1.5384521, y: -53}
+        - {x: 18.538452, y: -32}
+        - {x: 36.538452, y: -1}
+        - {x: 36.538452, y: 33}
+    - name: jump_mid_sheet(before_land)_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.307693, y: 49}
+        - {x: -14.6923065, y: 49}
+        - {x: -32.692307, y: 37}
+        - {x: -32.692307, y: -49}
+        - {x: -31.692307, y: -53}
+        - {x: 3.3076935, y: -53}
+        - {x: 23.307693, y: -36}
+        - {x: 32.307693, y: -2}
+        - {x: 32.307693, y: 31}
+    - name: jump_mid_sheet(before_land)_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.423096, y: 48}
+        - {x: -36.423096, y: 45}
+        - {x: -36.423096, y: -20}
+        - {x: -32.423096, y: -53}
+        - {x: 18.576904, y: -53}
+        - {x: 24.576904, y: -34}
+        - {x: 24.576904, y: 48}
+    - name: jump_mid_sheet(before_land)_5
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.8461609, y: 49}
+        - {x: -16.15384, y: 39}
+        - {x: -30.15384, y: 19}
+        - {x: -30.15384, y: 16}
+        - {x: -36.15384, y: 10}
+        - {x: -36.15384, y: -1}
+        - {x: -17.15384, y: -53}
+        - {x: 15.846161, y: -53}
+        - {x: 37.84616, y: -25}
+        - {x: 37.84616, y: 14}
+        - {x: 13.846161, y: 49}
+    - name: jump_mid_sheet(before_land)_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.384613, y: 49}
+        - {x: -23.384613, y: 46}
+        - {x: -36.384613, y: 27}
+        - {x: -36.384613, y: -14}
+        - {x: -23.384613, y: -53}
+        - {x: 34.615387, y: -53}
+        - {x: 37.615387, y: -46}
+        - {x: 37.615387, y: 28}
+        - {x: 17.615387, y: 49}
+    - name: jump_mid_sheet(before_land)_7
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.6154175, y: 50}
+        - {x: -19.615417, y: 40}
+        - {x: -36.615417, y: 15}
+        - {x: -36.615417, y: -6}
+        - {x: -19.615417, y: -52}
+        - {x: -18.615417, y: -53}
+        - {x: 13.3845825, y: -53}
+        - {x: 38.384583, y: -43}
+        - {x: 38.384583, y: 26}
+        - {x: 8.3845825, y: 50}
+    - name: jump_mid_sheet(before_land)_8
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.653809, y: 31}
+        - {x: 7.6538086, y: 49}
+        - {x: -1.3461914, y: 49}
+        - {x: -20.346191, y: 39}
+        - {x: -37.34619, y: 18}
+        - {x: -37.34619, y: -11}
+        - {x: -26.346191, y: -53}
+        - {x: 10.653809, y: -53}
+        - {x: 17.653809, y: -43}
+        - {x: 37.65381, y: -16}
+        - {x: 37.65381, y: 10}
+    - name: jump_mid_sheet(before_land)_9
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.076904, y: 49}
+        - {x: -36.076904, y: -53}
+        - {x: 21.923096, y: -53}
+        - {x: 37.923096, y: -34}
+        - {x: 37.923096, y: 19}
+        - {x: 14.923096, y: 49}
+    - name: jump_mid_sheet(before_land)_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.30768, y: 14}
+        - {x: -37.30768, y: 2}
+        - {x: -35.30768, y: 0}
+        - {x: -15.307678, y: -9}
+        - {x: -16.307678, y: -9}
+        - {x: -23.307678, y: -26}
+        - {x: -22.307678, y: -53}
+        - {x: 13.692322, y: -53}
+        - {x: 36.69232, y: -18}
+        - {x: 36.69232, y: 19}
+        - {x: 25.692322, y: 34}
+        - {x: 6.692322, y: 49}
+        - {x: -10.307678, y: 49}
+        - {x: -19.307678, y: 44}
+    - name: jump_mid_sheet(before_land)_11
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.538452, y: 49}
+        - {x: -37.538452, y: 39}
+        - {x: -37.538452, y: -37}
+        - {x: -34.538452, y: -53}
+        - {x: 25.461548, y: -53}
+        - {x: 37.461548, y: -36}
+        - {x: 37.461548, y: 28}
+        - {x: 15.461548, y: 49}
+    - name: jump_mid_sheet(before_land)_12
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.730774, y: 49}
+        - {x: -9.269226, y: 49}
+        - {x: -37.269226, y: 19}
+        - {x: -37.269226, y: -9}
+        - {x: -22.269226, y: -53}
+        - {x: 22.730774, y: -53}
+        - {x: 37.730774, y: -31}
+        - {x: 37.730774, y: 22}
+        - {x: 29.730774, y: 34}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

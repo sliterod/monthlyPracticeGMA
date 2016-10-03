@@ -35,10 +35,12 @@ public class Movement : MonoBehaviour {
         switch (direction) {
             case Directions.left:
                 addedValueToPos -= 0.1f;
+                this.GetComponent<SpriteRenderer>().flipX = false;
                 break;
 
             case Directions.right:
                 addedValueToPos += 0.1f;
+                this.GetComponent<SpriteRenderer>().flipX = true;
                 break;
         }
 

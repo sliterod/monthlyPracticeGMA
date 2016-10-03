@@ -4,18 +4,20 @@ using System.Collections;
 public class InputCapture : MonoBehaviour {
 
     Movement characterMovement;
+    bool idleToRunSet;
+    bool runToIdleSet;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         characterMovement = this.GetComponent<Movement>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update() {
         MovementCapture();
         JumpCapture();
         AttackCapture();
-	}
+    }
 
     /// <summary>
     /// Captures inputs for player movement
@@ -24,12 +26,21 @@ public class InputCapture : MonoBehaviour {
         //Movement left - right
         if (Input.GetKey(KeyCode.A)) {
             Debug.Log("Going to the left");
+            SetIdleToRunTrigger();
             characterMovement.Move(Directions.left);
         }
 
         if (Input.GetKey(KeyCode.D)) {
             Debug.Log("Going to the right");
+            SetIdleToRunTrigger();
             characterMovement.Move(Directions.right);
+        }
+
+        if (Input.GetKeyUp(KeyCode.A) ||
+            Input.GetKeyUp(KeyCode.D)
+            )
+        {
+            SetRunToIdleTrigger();
         }
 
         if (Input.GetKeyDown(KeyCode.S)) {
@@ -60,4 +71,24 @@ public class InputCapture : MonoBehaviour {
             Debug.Log("Player is attacking");
         }
     }
+
+    void SetIdleToRunTrigger()
+    {
+        if (!idleToRunSet)
+        {
+            this.GetComponent<Animator>().SetTrigger("idleToRun");
+            idleToRunSet = true;
+            runToIdleSet = false;
+        }
+    }
+
+
+    void SetRunToIdleTrigger() {
+        if (!runToIdleSet) {
+            this.GetComponent<Animator>().SetTrigger("runToIdle");
+            idleToRunSet = false;
+            runToIdleSet = true;
+        }
+    }
+
 }
