@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour {
     //Bool
     bool isPlayerJumping;
     bool isJumpCancelled;
+    bool isPlayerEvading;
 
     void Start() {
         rigidbody = this.GetComponent<Rigidbody2D>();
@@ -56,6 +57,14 @@ public class Movement : MonoBehaviour {
 
         yMaxJumping = this.transform.position.y + yMax;
         jumpCounter += 1;
+
+        if (jumpCounter == 1) {
+            this.GetComponent<InputCapture>().SetTrigger("jump");
+        }
+        else if (jumpCounter == 2)
+        {
+            this.GetComponent<InputCapture>().SetTrigger("jumpToMidAir");
+        }
     }
 
     void JumpAction() {
@@ -75,6 +84,8 @@ public class Movement : MonoBehaviour {
             Debug.Log("Jumping is finished");
             rigidbody.gravityScale = 1.0f;
             isPlayerJumping = false;
+            this.GetComponent<InputCapture>().SetTrigger("fall");
+            this.GetComponent<InputCapture>().ResetIdle();
         }
     }
 
@@ -82,6 +93,20 @@ public class Movement : MonoBehaviour {
         if (!isJumpCancelled) {
             rigidbody.gravityScale = 5.0f;
             isJumpCancelled = true;
+
+            this.GetComponent<InputCapture>().SetTrigger("fall");
+            this.GetComponent<InputCapture>().ResetIdle();
+        }
+    }
+
+    public void JumpEvade()
+    {
+        if (!isJumpCancelled && 
+            isPlayerJumping &&
+            !isPlayerEvading)
+        {
+            isPlayerEvading = true;
+            //this.GetComponent<InputCapture>().SetTrigger("jumpEvade");
         }
     }
 
@@ -90,7 +115,11 @@ public class Movement : MonoBehaviour {
             Debug.Log("Returning to floor");
             jumpCounter = 0;
             isJumpCancelled = false;
+            isPlayerEvading = false;
             rigidbody.gravityScale = 1.0f;
+
+            this.GetComponent<InputCapture>().SetBool("fallToLand", true);
+            this.GetComponent<InputCapture>().ResetIdle();
         }
     }
 }
