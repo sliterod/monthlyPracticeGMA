@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 6667797b874926e4f94e29cb0fa837fa
+timeCreated: 1475438046
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: attacksheet_0
+    21300002: attacksheet_1
+    21300004: attacksheet_2
+    21300006: attacksheet_3
+    21300008: attacksheet_4
+    21300010: attacksheet_5
+    21300012: attacksheet_6
+    21300014: attacksheet_7
+    21300016: attacksheet_8
+    21300018: attacksheet_9
+    21300020: attacksheet_10
+    21300022: attacksheet_11
+    21300024: attacksheet_12
+    21300026: attacksheet_13
+    21300028: attacksheet_14
+    21300030: attacksheet_15
+    21300032: attacksheet_16
+    21300034: attacksheet_17
+    21300036: attacksheet_18
+    21300038: attacksheet_19
+    21300040: attacksheet_20
+    21300042: attacksheet_21
+    21300044: attacksheet_22
+    21300046: attacksheet_23
+    21300048: attacksheet_24
+    21300050: attacksheet_25
+    21300052: attacksheet_26
+    21300054: attacksheet_27
+    21300056: attacksheet_28
+    21300058: attacksheet_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: attacksheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1255
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 29.333313}
+        - {x: 11.5, y: 25.333313}
+        - {x: -18.5, y: 0.333313}
+        - {x: -18.5, y: -37.666687}
+        - {x: -11.5, y: -74.66669}
+        - {x: 58.5, y: -74.66669}
+        - {x: 58.5, y: 9.333313}
+        - {x: 46.5, y: 29.333313}
+    - name: attacksheet_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1255
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.7782135, y: 30.333313}
+        - {x: -11.2217865, y: 22.333313}
+        - {x: -11.2217865, y: -74.66669}
+        - {x: 61.778214, y: -74.66669}
+        - {x: 61.778214, y: 24.333313}
+        - {x: 58.778214, y: 30.333313}
+    - name: attacksheet_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1255
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.556427, y: -74.66669}
+        - {x: 69.55643, y: -63.666687}
+        - {x: 73.55643, y: -16.666687}
+        - {x: 73.55643, y: 32.333313}
+        - {x: 54.556427, y: 35.333313}
+        - {x: 7.556427, y: 35.333313}
+        - {x: -0.443573, y: 29.333313}
+        - {x: -0.443573, y: -74.66669}
+        - {x: 11.556427, y: -74.66669}
+        - {x: 20.556427, y: -72.66669}
+        - {x: 24.556427, y: -69.66669}
+        - {x: 24.556427, y: -64.66669}
+        - {x: 34.556427, y: -74.66669}
+    - name: attacksheet_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1255
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.334656, y: 41.333313}
+        - {x: 9.334656, y: 38.333313}
+        - {x: -6.665344, y: -7.666687}
+        - {x: -6.665344, y: -55.666687}
+        - {x: -4.665344, y: -74.66669}
+        - {x: 59.334656, y: -74.66669}
+        - {x: 86.334656, y: -61.666687}
+        - {x: 86.334656, y: 40.333313}
+        - {x: 80.334656, y: 41.333313}
+    - name: attacksheet_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1255
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.612854, y: 40.333313}
+        - {x: 29.612854, y: 40.333313}
+        - {x: -9.387146, y: 18.333313}
+        - {x: -9.387146, y: -49.666687}
+        - {x: -1.387146, y: -75.66669}
+        - {x: 70.612854, y: -75.66669}
+        - {x: 99.612854, y: -14.666687}
+        - {x: 99.612854, y: 9.333313}
+    - name: attacksheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 30.166626}
+        - {x: 36.5, y: 32.166626}
+        - {x: 67.5, y: 45.166626}
+        - {x: 71.5, y: 52.166626}
+        - {x: 71.5, y: 57.166626}
+        - {x: 66.5, y: 59.166626}
+        - {x: 55.5, y: 59.166626}
+        - {x: 13.5, y: 50.166626}
+        - {x: -1.5, y: 35.166626}
+        - {x: -1.5, y: -75.833374}
+        - {x: 62.5, y: -75.833374}
+        - {x: 58.5, y: 33.166626}
+        - {x: 45.5, y: 34.166626}
+        - {x: 39.5, y: 33.166626}
+    - name: attacksheet_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1004
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.221786, y: 34.166626}
+        - {x: -25.221786, y: -11.833374}
+        - {x: -4.2217865, y: -75.833374}
+        - {x: 58.778214, y: -75.833374}
+        - {x: 60.778214, y: -73.833374}
+        - {x: 60.778214, y: -20.833374}
+        - {x: 41.778214, y: 45.166626}
+        - {x: 6.7782135, y: 73.166626}
+        - {x: -2.2217865, y: 73.166626}
+        - {x: -7.2217865, y: 70.166626}
+    - name: attacksheet_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1004
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.556427, y: 33.166626}
+        - {x: -65.44357, y: 33.166626}
+        - {x: -65.44357, y: -8.833374}
+        - {x: -13.443573, y: -75.833374}
+        - {x: 61.556427, y: -75.833374}
+        - {x: 65.55643, y: -72.833374}
+        - {x: 65.55643, y: 3.166626}
+    - name: attacksheet_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1004
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.334656, y: 11.166626}
+        - {x: 45.334656, y: 30.166626}
+        - {x: -20.665344, y: 30.166626}
+        - {x: -72.665344, y: -21.833374}
+        - {x: -72.665344, y: -66.833374}
+        - {x: -70.665344, y: -67.833374}
+        - {x: -14.665344, y: -68.833374}
+        - {x: -4.665344, y: -61.833374}
+        - {x: 0.33465576, y: -57.833374}
+        - {x: -6.665344, y: -65.833374}
+        - {x: -6.665344, y: -70.833374}
+        - {x: -5.665344, y: -75.833374}
+        - {x: -0.66534424, y: -75.833374}
+        - {x: 20.334656, y: -74.833374}
+        - {x: 25.334656, y: -75.833374}
+        - {x: 56.334656, y: -75.833374}
+        - {x: 57.334656, y: -74.833374}
+        - {x: 62.334656, y: -65.833374}
+        - {x: 68.334656, y: -40.833374}
+    - name: attacksheet_9
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1004
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.612854, y: 0.16662598}
+        - {x: -59.387146, y: -38.833374}
+        - {x: -59.387146, y: -48.833374}
+        - {x: -52.387146, y: -53.833374}
+        - {x: -5.387146, y: -60.833374}
+        - {x: -0.387146, y: -58.833374}
+        - {x: 3.612854, y: -56.833374}
+        - {x: -21.387146, y: -75.833374}
+        - {x: 62.612854, y: -75.833374}
+        - {x: 62.612854, y: -0.833374}
+        - {x: 57.612854, y: 32.166626}
+        - {x: 24.612854, y: 32.166626}
+        - {x: 9.612854, y: 26.166626}
+    - name: attacksheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 30}
+        - {x: 26.5, y: 28}
+        - {x: 11.5, y: 8}
+        - {x: 16.5, y: -13}
+        - {x: 18.5, y: -18}
+        - {x: 15.5, y: -18}
+        - {x: -36.5, y: -22}
+        - {x: -42.5, y: -30}
+        - {x: -42.5, y: -35}
+        - {x: -34.5, y: -39}
+        - {x: -22.5, y: -39}
+        - {x: -22.5, y: -76}
+        - {x: 60.5, y: -76}
+        - {x: 60.5, y: 15}
+        - {x: 56.5, y: 30}
+    - name: attacksheet_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 753
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.221786, y: -54}
+        - {x: -13.2217865, y: -76}
+        - {x: 68.77821, y: -76}
+        - {x: 74.77821, y: -64}
+        - {x: 74.77821, y: 25}
+        - {x: 14.7782135, y: 25}
+        - {x: -27.221786, y: 11}
+    - name: attacksheet_12
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 753
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.556427, y: 28}
+        - {x: -44.443573, y: -14}
+        - {x: -44.443573, y: -43}
+        - {x: -10.443573, y: -74}
+        - {x: -2.443573, y: -77}
+        - {x: 61.556427, y: -77}
+        - {x: 61.556427, y: 28}
+    - name: attacksheet_13
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 753
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.334656, y: 30}
+        - {x: 35.334656, y: 30}
+        - {x: 19.334656, y: 29}
+        - {x: 5.334656, y: 8}
+        - {x: -66.665344, y: -12}
+        - {x: -72.665344, y: -15}
+        - {x: -72.665344, y: -29}
+        - {x: -17.665344, y: -78}
+        - {x: 55.334656, y: -78}
+        - {x: 59.334656, y: -74}
+        - {x: 59.334656, y: -21}
+        - {x: 55.334656, y: 26}
+    - name: attacksheet_14
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 753
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.612854, y: -32}
+        - {x: 43.612854, y: -34}
+        - {x: 50.612854, y: -44}
+        - {x: 60.612854, y: -40}
+        - {x: 60.612854, y: -31}
+        - {x: 59.612854, y: -26}
+        - {x: 45.612854, y: 30}
+        - {x: -35.387146, y: 30}
+        - {x: -96.387146, y: 12}
+        - {x: -96.387146, y: -22}
+        - {x: -0.387146, y: -77}
+        - {x: 18.612854, y: -76}
+        - {x: 22.612854, y: -72}
+        - {x: 22.612854, y: -68}
+        - {x: 20.612854, y: -64}
+        - {x: 34.612854, y: -79}
+        - {x: 43.612854, y: -79}
+        - {x: 58.612854, y: -70}
+        - {x: 59.612854, y: -62}
+        - {x: 48.612854, y: -51}
+    - name: attacksheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30.333313}
+        - {x: -96.5, y: 6.333313}
+        - {x: -102.5, y: 0.333313}
+        - {x: -102.5, y: -14.666687}
+        - {x: -53.5, y: -49.666687}
+        - {x: 3.5, y: -78.66669}
+        - {x: 28.5, y: -78.66669}
+        - {x: 23.5, y: -64.66669}
+        - {x: 19.5, y: -62.666687}
+        - {x: 19.5, y: -50.666687}
+        - {x: 19.5, y: -54.666687}
+        - {x: 27.5, y: -62.666687}
+        - {x: 33.5, y: -78.66669}
+        - {x: 65.5, y: -78.66669}
+        - {x: 65.5, y: 22.333313}
+        - {x: 55.5, y: 30.333313}
+    - name: attacksheet_16
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 502
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.7782135, y: 30.333313}
+        - {x: 2.7782135, y: 28.333313}
+        - {x: -102.22179, y: 6.333313}
+        - {x: -102.22179, y: -13.666687}
+        - {x: -54.221786, y: -49.666687}
+        - {x: -5.2217865, y: -73.66669}
+        - {x: 22.778214, y: -77.66669}
+        - {x: 23.778214, y: -71.66669}
+        - {x: 23.778214, y: -65.66669}
+        - {x: 34.778214, y: -78.66669}
+        - {x: 45.778214, y: -78.66669}
+        - {x: 60.778214, y: -70.66669}
+        - {x: 65.77821, y: -62.666687}
+        - {x: 65.77821, y: 3.333313}
+        - {x: 47.778214, y: 30.333313}
+    - name: attacksheet_17
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 502
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.556427, y: -56.666687}
+        - {x: 46.556427, y: -47.666687}
+        - {x: 50.556427, y: -46.666687}
+        - {x: 56.556427, y: -41.666687}
+        - {x: 61.556427, y: 17.333313}
+        - {x: 61.556427, y: 27.333313}
+        - {x: -21.443573, y: 27.333313}
+        - {x: -99.44357, y: 2.333313}
+        - {x: -99.44357, y: -27.666687}
+        - {x: -96.44357, y: -28.666687}
+        - {x: -84.44357, y: -31.666687}
+        - {x: -40.443573, y: -43.666687}
+        - {x: -23.443573, y: -34.666687}
+        - {x: -4.443573, y: -74.66669}
+        - {x: 20.556427, y: -74.66669}
+        - {x: 38.556427, y: -78.66669}
+        - {x: 54.556427, y: -78.66669}
+        - {x: 57.556427, y: -74.66669}
+        - {x: 61.556427, y: -63.666687}
+    - name: attacksheet_18
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 502
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.665344, y: -77.66669}
+        - {x: 63.334656, y: -77.66669}
+        - {x: 63.334656, y: -9.666687}
+        - {x: 57.334656, y: 24.333313}
+        - {x: -29.665344, y: 24.333313}
+        - {x: -92.665344, y: -6.666687}
+        - {x: -92.665344, y: -63.666687}
+    - name: attacksheet_19
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 502
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.387146, y: 19.333313}
+        - {x: -85.387146, y: -7.666687}
+        - {x: -85.387146, y: -65.66669}
+        - {x: -55.387146, y: -74.66669}
+        - {x: 69.612854, y: -74.66669}
+        - {x: 69.612854, y: -33.666687}
+        - {x: 48.612854, y: 19.333313}
+    - name: attacksheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: -73.83334}
+        - {x: 70.5, y: -39.833344}
+        - {x: 46.5, y: 15.1666565}
+        - {x: -8.5, y: 15.1666565}
+        - {x: -77.5, y: -35.833344}
+        - {x: -77.5, y: -67.83334}
+        - {x: -71.5, y: -71.83334}
+        - {x: -49.5, y: -73.83334}
+        - {x: 19.5, y: -73.83334}
+        - {x: 25.5, y: -72.83334}
+        - {x: 22.5, y: -65.83334}
+        - {x: 26.5, y: -71.83334}
+        - {x: 37.5, y: -73.83334}
+    - name: attacksheet_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 251
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.221786, y: -75.83334}
+        - {x: 70.77821, y: -75.83334}
+        - {x: 70.77821, y: -37.833344}
+        - {x: 54.778214, y: 18.166656}
+        - {x: -64.22179, y: 18.166656}
+        - {x: -77.22179, y: 15.1666565}
+        - {x: -77.22179, y: -35.833344}
+    - name: attacksheet_22
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 251
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.443573, y: -37.833344}
+        - {x: -5.443573, y: -76.83334}
+        - {x: 65.55643, y: -76.83334}
+        - {x: 65.55643, y: 9.1666565}
+        - {x: 34.556427, y: 80.16666}
+        - {x: -10.443573, y: 80.16666}
+        - {x: -12.443573, y: 69.16666}
+    - name: attacksheet_23
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 251
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.334656, y: 31.166656}
+        - {x: -2.6653442, y: -0.8333435}
+        - {x: -2.6653442, y: -74.83334}
+        - {x: 5.334656, y: -77.83334}
+        - {x: 56.334656, y: -77.83334}
+        - {x: 64.334656, y: -75.83334}
+        - {x: 93.334656, y: -44.833344}
+        - {x: 93.334656, y: 17.166656}
+        - {x: 60.334656, y: 31.166656}
+    - name: attacksheet_24
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 251
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.612854, y: 32.166656}
+        - {x: 5.612854, y: 14.1666565}
+        - {x: -2.387146, y: -30.833344}
+        - {x: -2.387146, y: -76.83334}
+        - {x: 7.612854, y: -77.83334}
+        - {x: 52.612854, y: -77.83334}
+        - {x: 63.612854, y: -54.833344}
+        - {x: 63.612854, y: 31.166656}
+        - {x: 53.612854, y: 32.166656}
+    - name: attacksheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 32}
+        - {x: 22.5, y: 32}
+        - {x: -2.5, y: 12}
+        - {x: -2.5, y: -79}
+        - {x: 51.5, y: -79}
+        - {x: 62.5, y: -67}
+        - {x: 75.5, y: -39}
+        - {x: 75.5, y: -24}
+        - {x: 63.5, y: 24}
+    - name: attacksheet_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.778214, y: 35}
+        - {x: 27.778214, y: 35}
+        - {x: 22.778214, y: 29}
+        - {x: 5.7782135, y: 9}
+        - {x: -2.2217865, y: -23}
+        - {x: -2.2217865, y: -79}
+        - {x: 12.7782135, y: -79}
+        - {x: 20.778214, y: -76}
+        - {x: 23.778214, y: -72}
+        - {x: 23.778214, y: -67}
+        - {x: 38.778214, y: -79}
+        - {x: 48.778214, y: -79}
+        - {x: 64.77821, y: -63}
+        - {x: 77.77821, y: -38}
+        - {x: 77.77821, y: -8}
+        - {x: 63.778214, y: 30}
+    - name: attacksheet_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.443573, y: -79}
+        - {x: 75.55643, y: -79}
+        - {x: 75.55643, y: 25}
+        - {x: 57.556427, y: 31}
+        - {x: 42.556427, y: 33}
+        - {x: 4.556427, y: 33}
+        - {x: -2.443573, y: 20}
+    - name: attacksheet_28
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.334656, y: -11}
+        - {x: 39.334656, y: -6}
+        - {x: 66.334656, y: -4}
+        - {x: 69.334656, y: -3}
+        - {x: 69.334656, y: 12}
+        - {x: 59.334656, y: 29}
+        - {x: 5.334656, y: 29}
+        - {x: -8.665344, y: 26}
+        - {x: -8.665344, y: -49}
+        - {x: -5.665344, y: -74}
+        - {x: 11.334656, y: -79}
+        - {x: 50.334656, y: -79}
+        - {x: 63.334656, y: -58}
+        - {x: 45.334656, y: -27}
+        - {x: 36.334656, y: -18}
+    - name: attacksheet_29
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 326
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.612854, y: 29}
+        - {x: -0.387146, y: 25}
+        - {x: -12.387146, y: 12}
+        - {x: -12.387146, y: -77}
+        - {x: 11.612854, y: -77}
+        - {x: 19.612854, y: -75}
+        - {x: 23.612854, y: -71}
+        - {x: 27.612854, y: -77}
+        - {x: 61.612854, y: -77}
+        - {x: 61.612854, y: 17}
+        - {x: 50.612854, y: 29}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

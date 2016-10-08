@@ -68,8 +68,7 @@ public class Respawn : MonoBehaviour {
     /// </summary>
     void RespawnAnimation() {
 
-        respawnPlatform.localScale =
-            new Vector2(3.5f,2.5f);
+        respawnPlatform.localScale = Vector2.one;
 
         iTweenEvent.GetEvent(gameObject,
                              "respawnme").Play();
