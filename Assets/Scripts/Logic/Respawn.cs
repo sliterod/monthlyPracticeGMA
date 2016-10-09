@@ -4,13 +4,18 @@ using System.Collections;
 public class Respawn : MonoBehaviour {
 
     Transform respawnPlatform;
+    Transform barrier;
 
     // Use this for initialization
     void Awake() {
         respawnPlatform = this.transform
             .FindChild("platform");
 
+        barrier = this.transform
+            .FindChild("barrier");
+
         respawnPlatform.localScale = Vector2.zero;
+        barrier.localScale = Vector2.zero;
     }
     
     public void RespawnCharacter() {

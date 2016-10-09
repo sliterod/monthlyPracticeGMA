@@ -5,6 +5,7 @@ public class InputCapture : MonoBehaviour {
 
     Movement characterMovement;
     Attack characterAttack;
+    Shield shield;
     bool idleToRunSet;
     bool runToIdleSet;
 
@@ -12,6 +13,7 @@ public class InputCapture : MonoBehaviour {
     void Start() {
         characterMovement = this.GetComponent<Movement>();
         characterAttack = this.GetComponent<Attack>();
+        shield = this.GetComponent<Shield>();
     }
 
     // Update is called once per frame
@@ -72,12 +74,29 @@ public class InputCapture : MonoBehaviour {
     /// </summary>
     void AttackCapture()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && 
+            !characterMovement.isPlayerInTheAir)
         {
             Debug.Log("Player is attacking");
             characterAttack.AttackAction();
         }
-        
+
+        if (Input.GetMouseButtonDown(0) && 
+            !characterMovement.isPlayerEvading &&
+            characterMovement.isPlayerInTheAir)
+        {
+            Debug.Log("Player is attacking in the air");
+            characterAttack.AttackJump(); ;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            shield.ShowBarrier(true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            shield.ShowBarrier(false);
+        }
+
     }
 
     void SetIdleToRunTrigger()

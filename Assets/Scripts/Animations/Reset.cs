@@ -12,6 +12,14 @@ public class Reset : StateMachineBehaviour {
         GameObject.Find("Player")
             .GetComponent<InputCapture>()
             .SetBool("fallToLand", false);
+
+        GameObject.Find("Player")
+            .GetComponent<InputCapture>()
+            .SetBool("attack_air", false);
+
+        GameObject.Find("Player")
+            .GetComponent<InputCapture>()
+            .SetBool("jumpEvade", false);
     }
 
 	// OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
