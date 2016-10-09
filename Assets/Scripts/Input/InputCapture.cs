@@ -86,7 +86,7 @@ public class InputCapture : MonoBehaviour {
             characterMovement.isPlayerInTheAir)
         {
             Debug.Log("Player is attacking in the air");
-            characterAttack.AttackJump(); ;
+            characterAttack.AttackJump();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift)) {

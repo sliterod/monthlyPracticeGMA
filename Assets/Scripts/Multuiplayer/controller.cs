@@ -16,6 +16,9 @@ public class controller : MonoBehaviour
     public String playerid;
     public String roomid;
     Movement characterMovement;
+    Movement characterMovementOnline;
+    Attack characterAttackOnline;
+    Shield shieldOnline;
     bool idleToRunSet;
     bool runToIdleSet;
     private float currentPositionX;
@@ -35,7 +38,7 @@ public class controller : MonoBehaviour
         socket.On("roomlist", showRoomList);
 
         socket.On("joined", playerJoined);
-
+        characterMovement = this.GetComponent<Movement>();
         this.playerLIst = new List<GameObject>();
     }
     public void createNewRoom(SocketIOEvent e)
@@ -105,18 +108,20 @@ public class controller : MonoBehaviour
         {
             if (player.GetComponent<onlinePlayerController>().playerid == e.data.GetField("playerid").str)
             {
-                characterMovement = player.GetComponent<Movement>();
+                characterMovementOnline = player.GetComponent<Movement>();
+                characterAttackOnline = this.GetComponent<Attack>();
+                shieldOnline = this.GetComponent<Shield>();
                 //Movement left - right
                 if (String.Compare(data["key"],"a")==0)
                     {
                         SetIdleToRunTrigger(player);
-                        characterMovement.Move(Directions.left);
+                    characterMovementOnline.Move(Directions.left);
                     }
                 if (String.Compare(data["key"], "d") == 0)
                     {
                         Debug.Log("Going to the right");
                         SetIdleToRunTrigger(player);
-                        characterMovement.Move(Directions.right);
+                    characterMovementOnline.Move(Directions.right);
                     }
                 if (String.Compare(data["key"], "stop") == 0)
                 {
@@ -126,12 +131,32 @@ public class controller : MonoBehaviour
                 if (String.Compare(data["key"], "s") == 0)
                 {
                         Debug.Log("Cancel jump");
-                        characterMovement.JumpCancel();
+                    characterMovementOnline.JumpCancel();
                 }
                 if (String.Compare(data["key"], "jump") == 0)
                 {
-                    characterMovement.Jump();
+                    characterMovementOnline.Jump();
                 }
+                if (String.Compare(data["key"], "attack") == 0)
+                {
+                    characterAttackOnline.AttackAction();
+                }
+
+                if (String.Compare(data["key"], "attackJump") == 0)
+                {
+                    characterAttackOnline.AttackJump();
+                }
+
+                if (String.Compare(data["key"], "ShowBarrier") == 0)
+                {
+                    shieldOnline.ShowBarrier(true);
+                }
+
+                if (String.Compare(data["key"], "HideBarrier") == 0)
+                {
+                    shieldOnline.ShowBarrier(false);
+                }
+
                 player.transform.position = new Vector3(float.Parse(data["x"]), float.Parse(data["y"]), float.Parse(data["z"]));
             }
         }
@@ -216,6 +241,26 @@ public class controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             data["key"] = "jump";
+        }
+                if (Input.GetMouseButtonDown(0) && 
+            !characterMovement.isPlayerInTheAir)
+        {
+            data["key"] = "attack";
+        }
+
+        if (Input.GetMouseButtonDown(0) && 
+            !characterMovement.isPlayerEvading &&
+            characterMovement.isPlayerInTheAir)
+        {
+            data["key"] = "attackJump";
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            data["key"] = "ShowBarrier";
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            data["key"] = "HideBarrier";
         }
         socket.Emit("position", new JSONObject(data));
     }
