@@ -38,7 +38,7 @@ public class controller : MonoBehaviour
         socket.On("roomlist", showRoomList);
 
         socket.On("joined", playerJoined);
-        characterMovement = this.GetComponent<Movement>();
+        characterMovement = player.GetComponent<Movement>();
         this.playerLIst = new List<GameObject>();
     }
     public void createNewRoom(SocketIOEvent e)
@@ -109,8 +109,8 @@ public class controller : MonoBehaviour
             if (player.GetComponent<onlinePlayerController>().playerid == e.data.GetField("playerid").str)
             {
                 characterMovementOnline = player.GetComponent<Movement>();
-                characterAttackOnline = this.GetComponent<Attack>();
-                shieldOnline = this.GetComponent<Shield>();
+                characterAttackOnline = player.GetComponent<Attack>();
+                shieldOnline = player.GetComponent<Shield>();
                 //Movement left - right
                 if (String.Compare(data["key"],"a")==0)
                     {
