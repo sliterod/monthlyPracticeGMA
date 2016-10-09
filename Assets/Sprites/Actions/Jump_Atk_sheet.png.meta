@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 1e91dd03ca4ce9045a514b16106b2545
+timeCreated: 1475440339
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jump_Atk_sheet_0
+    21300002: Jump_Atk_sheet_1
+    21300004: Jump_Atk_sheet_2
+    21300006: Jump_Atk_sheet_3
+    21300008: Jump_Atk_sheet_4
+    21300010: Jump_Atk_sheet_5
+    21300012: Jump_Atk_sheet_6
+    21300014: Jump_Atk_sheet_7
+    21300016: Jump_Atk_sheet_8
+    21300018: Jump_Atk_sheet_9
+    21300020: Jump_Atk_sheet_10
+    21300022: Jump_Atk_sheet_11
+    21300024: Jump_Atk_sheet_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Jump_Atk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -3}
+        - {x: 23.5, y: -4}
+        - {x: 27.5, y: -5}
+        - {x: 29.5, y: -2}
+        - {x: 29.5, y: 7}
+        - {x: 15.5, y: 29}
+        - {x: 9.5, y: 29}
+        - {x: 2.5, y: 26}
+        - {x: -11.5, y: 11}
+        - {x: -11.5, y: -3}
+        - {x: -3.5, y: -26}
+        - {x: -0.5, y: -28}
+        - {x: 14.5, y: -28}
+        - {x: 21.5, y: -16}
+        - {x: 19.5, y: -2}
+        - {x: 15.5, y: 2}
+    - name: Jump_Atk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.4526291, y: 28}
+        - {x: -5.452629, y: 27}
+        - {x: -5.452629, y: -15}
+        - {x: -3.452629, y: -25}
+        - {x: 5.547371, y: -28}
+        - {x: 22.54737, y: -28}
+        - {x: 29.54737, y: -26}
+        - {x: 29.54737, y: 21}
+        - {x: 23.54737, y: 28}
+    - name: Jump_Atk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.405258, y: -10}
+        - {x: 0.5947418, y: -24}
+        - {x: 3.5947418, y: -28}
+        - {x: 34.59474, y: -28}
+        - {x: 34.59474, y: 28}
+        - {x: -2.4052582, y: 28}
+        - {x: -8.405258, y: 24}
+        - {x: -8.405258, y: -1}
+    - name: Jump_Atk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.64212, y: 29}
+        - {x: 5.6421204, y: 29}
+        - {x: 2.6421204, y: 17}
+        - {x: 2.6421204, y: 13}
+        - {x: 2.6421204, y: 14}
+        - {x: -1.3578796, y: 20}
+        - {x: -8.35788, y: 20}
+        - {x: -8.35788, y: 1}
+        - {x: 2.6421204, y: -27}
+        - {x: 11.64212, y: -29}
+        - {x: 18.64212, y: -29}
+        - {x: 24.64212, y: -22}
+        - {x: 38.64212, y: 1}
+        - {x: 38.64212, y: 22}
+    - name: Jump_Atk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.3105164, y: 32}
+        - {x: -3.3105164, y: 31}
+        - {x: -10.310516, y: 16}
+        - {x: -10.310516, y: 0}
+        - {x: 7.6894836, y: -29}
+        - {x: 22.689484, y: -29}
+        - {x: 32.689484, y: -3}
+        - {x: 32.689484, y: 30}
+        - {x: 25.689484, y: 32}
+    - name: Jump_Atk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.736847, y: 38}
+        - {x: 16.736847, y: 39}
+        - {x: 4.736847, y: 39}
+        - {x: -10.263153, y: 35}
+        - {x: -10.263153, y: -6}
+        - {x: -4.263153, y: -29}
+        - {x: 19.736847, y: -29}
+        - {x: 21.736847, y: -23}
+        - {x: 21.736847, y: 33}
+    - name: Jump_Atk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.7842407, y: 25}
+        - {x: -2.2157593, y: 19}
+        - {x: 0.7842407, y: 38}
+        - {x: -1.2157593, y: 39}
+        - {x: -8.215759, y: 39}
+        - {x: -17.21576, y: 18}
+        - {x: -17.21576, y: 6}
+        - {x: -8.215759, y: -27}
+        - {x: 24.78424, y: -27}
+        - {x: 24.78424, y: 5}
+        - {x: 14.784241, y: 34}
+    - name: Jump_Atk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.831604, y: 29}
+        - {x: 8.831604, y: 29}
+        - {x: -0.168396, y: 24}
+        - {x: -1.168396, y: 21}
+        - {x: -35.168396, y: 1}
+        - {x: -38.168396, y: -3}
+        - {x: -38.168396, y: -8}
+        - {x: -12.168396, y: -25}
+        - {x: 28.831604, y: -25}
+        - {x: 28.831604, y: 3}
+        - {x: 27.831604, y: 7}
+    - name: Jump_Atk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.121033, y: 28}
+        - {x: -8.121033, y: -41}
+        - {x: 14.878967, y: -41}
+        - {x: 30.878967, y: -24}
+        - {x: 30.878967, y: 8}
+        - {x: 9.878967, y: 28}
+    - name: Jump_Atk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.073669, y: 6}
+        - {x: -9.073669, y: -22}
+        - {x: 40.92633, y: -22}
+        - {x: 40.92633, y: 8}
+        - {x: 35.92633, y: 23}
+        - {x: 7.9263306, y: 28}
+        - {x: 4.9263306, y: 28}
+        - {x: -6.0736694, y: 21}
+    - name: Jump_Atk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.526306, y: 28}
+        - {x: -7.526306, y: 20}
+        - {x: -9.526306, y: 8}
+        - {x: -9.526306, y: -19}
+        - {x: -7.526306, y: -22}
+        - {x: 40.473694, y: -22}
+        - {x: 40.473694, y: 6}
+        - {x: 20.473694, y: 28}
+    - name: Jump_Atk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.521057, y: -15}
+        - {x: 32.521057, y: -6}
+        - {x: 32.521057, y: 16}
+        - {x: 9.521057, y: 28}
+        - {x: 3.5210571, y: 28}
+        - {x: -5.478943, y: 17}
+        - {x: -8.478943, y: -9}
+        - {x: -8.478943, y: -38}
+        - {x: -5.478943, y: -41}
+        - {x: -3.4789429, y: -41}
+        - {x: 0.5210571, y: -37}
+        - {x: 21.521057, y: -28}
+        - {x: 27.521057, y: -25}
+      - - {x: -39.478943, y: -21}
+        - {x: -36.478943, y: -20}
+        - {x: -36.478943, y: -17}
+        - {x: -38.478943, y: -15}
+        - {x: -39.478943, y: -15}
+    - name: Jump_Atk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.568481, y: 29}
+        - {x: -1.4315186, y: 29}
+        - {x: -31.431519, y: 9}
+        - {x: -31.431519, y: -9}
+        - {x: -6.4315186, y: -29}
+        - {x: 15.568481, y: -29}
+        - {x: 20.568481, y: -27}
+        - {x: 31.568481, y: -7}
+        - {x: 33.56848, y: -1}
+        - {x: 33.56848, y: 17}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
