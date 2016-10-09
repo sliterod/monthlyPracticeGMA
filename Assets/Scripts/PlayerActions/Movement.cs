@@ -15,9 +15,10 @@ public class Movement : MonoBehaviour {
     float yMaxJumping = 0.0f;
 
     //Bool
-    bool isPlayerJumping;
-    bool isJumpCancelled;
-    bool isPlayerEvading;
+    public bool isPlayerJumping;
+    public bool isJumpCancelled;
+    public bool isPlayerEvading;
+    public bool isPlayerInTheAir;
 
     void Start() {
         rigidbody = this.GetComponent<Rigidbody2D>();
@@ -54,6 +55,7 @@ public class Movement : MonoBehaviour {
     public void Jump() {
         rigidbody.gravityScale = 0.0f;
         isPlayerJumping = true;
+        isPlayerInTheAir = true;
 
         yMaxJumping = this.transform.position.y + yMax;
         jumpCounter += 1;
@@ -101,12 +103,10 @@ public class Movement : MonoBehaviour {
 
     public void JumpEvade()
     {
-        if (!isJumpCancelled && 
-            isPlayerJumping &&
-            !isPlayerEvading)
+        if (isPlayerInTheAir && !isPlayerEvading)
         {
             isPlayerEvading = true;
-            //this.GetComponent<InputCapture>().SetTrigger("jumpEvade");
+            this.GetComponent<InputCapture>().SetBool("jumpEvade",true);
         }
     }
 
@@ -116,6 +116,7 @@ public class Movement : MonoBehaviour {
             jumpCounter = 0;
             isJumpCancelled = false;
             isPlayerEvading = false;
+            isPlayerInTheAir = false;
             rigidbody.gravityScale = 1.0f;
 
             this.GetComponent<InputCapture>().SetBool("fallToLand", true);

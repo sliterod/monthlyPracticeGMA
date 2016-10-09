@@ -30,7 +30,7 @@ public class Attack : MonoBehaviour {
     }
 
     public void AttackJump() {
-        //this.GetComponent<InputCapture>().SetTrigger("jump");
+        this.GetComponent<InputCapture>().SetBool("attack_air",true);
     }
 
     public void ResetAttackCounter() {
